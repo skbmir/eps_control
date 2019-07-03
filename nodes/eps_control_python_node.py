@@ -16,7 +16,7 @@ if __name__ == '__main__':
     port = rospy.get_param('~port',default='/dev/ttyUSB0')
     baud_rate = rospy.get_param('~baud_rate', default=300000)
     steering_rate = rospy.get_param('~steering_rate', default=10)
-    telemetry_period = rospy.get_param('~telemetry_period', default=200)
+    telemetry_period = rospy.get_param('~telemetry_period', default=0.2)
     max_angle = rospy.get_param('~max_steering_angle', default=32)
     max_eps_position = rospy.get_param('~max_eps_position', default=1500)
     middle_eps_position = rospy.get_param('~middle_eps_position', default=1000)
