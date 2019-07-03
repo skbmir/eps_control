@@ -1,2 +1,2 @@
 # eps_control
-Electronic Power System ROS node
+Electronic Power System control package for ROS
